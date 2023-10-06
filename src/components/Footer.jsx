@@ -17,6 +17,35 @@ const Footer = () => {
           <i  style = {{fontSize:'25px'}} class="fa-brands fa-instagram cursor-pointer"></i>
           <i  style = {{fontSize:'25px'}} class="fa-brands fa-facebook cursor-pointer"></i>
         </div>
+      </div> 
+      <div className='lg:col-span-2 flex justify-between mt-6'> 
+      <div>
+        <h6 className='font-medium text-gray-400'>Solutions</h6>
+        <ul>
+            <li className='py-2 text-sm'>Analytics</li>
+            <li className='py-2 text-sm'>Marketing</li>
+            <li className='py-2 text-sm'>Commerce</li>
+            <li className='py-2 text-sm'>Insights</li>
+        </ul>
+    </div>
+    <div>
+        <h6 className='font-medium text-gray-400'>Support</h6>
+        <ul>
+            <li className='py-2 text-sm'>Pricing</li>
+            <li className='py-2 text-sm'>Documentation</li>
+            <li className='py-2 text-sm'>Guides</li>
+            <li className='py-2 text-sm'>API Status</li>
+        </ul>
+    </div>
+    <div>
+        <h6 className='font-medium text-gray-400'>Support</h6>
+        <ul>
+            <li className='py-2 text-sm'>Pricing</li>
+            <li className='py-2 text-sm'>Documentation</li>
+            <li className='py-2 text-sm'>Guides</li>
+            <li className='py-2 text-sm'>API Status</li>
+        </ul>
+    </div>
       </div>
     </div>
   );
